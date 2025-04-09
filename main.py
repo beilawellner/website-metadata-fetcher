@@ -17,6 +17,8 @@ def get_domains_from_input():
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
     if len(sys.argv) > 1 and sys.argv[1] == "--file":
         domain_file = sys.argv[2]
