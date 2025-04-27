@@ -76,3 +76,4 @@ class WebsiteMetadataFetcher:
     def print_metadata_as_json(self, metadata: WebsiteMetadata) -> None:
         metadata_dict = metadata.to_dict()
         print(json.dumps(metadata_dict, indent=4))
+        print("test")
