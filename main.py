@@ -32,4 +32,3 @@ if __name__ == "__main__":
     else:
         logging.error("No valid domains found.")
     print("test")
-    print("test")
