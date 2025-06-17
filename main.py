@@ -31,3 +31,4 @@ if __name__ == "__main__":
         fetcher.get_metadata()
     else:
         logging.error("No valid domains found.")
+        print("test-2")
